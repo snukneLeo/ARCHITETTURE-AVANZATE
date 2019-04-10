@@ -1,0 +1,458 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+ no time accumulated
+
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+  0.00      0.00     0.00     1902     0.00     0.00  std::remove_reference<int&>::type&& std::move<int&>(int&)
+  0.00      0.00     0.00      634     0.00     0.00  std::enable_if<std::__and_<std::__not_<std::__is_tuple_like<int> >, std::is_move_constructible<int>, std::is_move_assignable<int> >::value, void>::type std::swap<int>(int&, int&)
+  0.00      0.00     0.00      200     0.00     0.00  std::uniform_int_distribution<int>::param_type::a() const
+  0.00      0.00     0.00      136     0.00     0.00  partition(int*, int, int)
+  0.00      0.00     0.00      100     0.00     0.00  std::uniform_int_distribution<int>::param_type::b() const
+  0.00      0.00     0.00      100     0.00     0.00  int std::uniform_int_distribution<int>::operator()<std::linear_congruential_engine<unsigned long, 16807ul, 0ul, 2147483647ul> >(std::linear_congruential_engine<unsigned long, 16807ul, 0ul, 2147483647ul>&)
+  0.00      0.00     0.00      100     0.00     0.00  int std::uniform_int_distribution<int>::operator()<std::linear_congruential_engine<unsigned long, 16807ul, 0ul, 2147483647ul> >(std::linear_congruential_engine<unsigned long, 16807ul, 0ul, 2147483647ul>&, std::uniform_int_distribution<int>::param_type const&)
+  0.00      0.00     0.00      100     0.00     0.00  std::linear_congruential_engine<unsigned long, 16807ul, 0ul, 2147483647ul>::operator()()
+  0.00      0.00     0.00      100     0.00     0.00  std::__detail::_Mod<unsigned long, 2147483647ul, 16807ul, 0ul, true, true>::__calc(unsigned long)
+  0.00      0.00     0.00      100     0.00     0.00  unsigned long std::__detail::__mod<unsigned long, 2147483647ul, 16807ul, 0ul>(unsigned long)
+  0.00      0.00     0.00       18     0.00     0.00  std::chrono::duration<float, std::ratio<1l, 1000l> >::count() const
+  0.00      0.00     0.00        8     0.00     0.00  std::operator&(std::_Ios_Fmtflags, std::_Ios_Fmtflags)
+  0.00      0.00     0.00        7     0.00     0.00  std::chrono::duration<long, std::ratio<1l, 1000000000l> >::count() const
+  0.00      0.00     0.00        5     0.00     0.00  std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::time_since_epoch() const
+  0.00      0.00     0.00        4     0.00     0.00  void print_array<int>(int*, int, char const*)
+  0.00      0.00     0.00        4     0.00     0.00  timer::operator<<(std::ostream&, xlib::Color const&)
+  0.00      0.00     0.00        4     0.00     0.00  std::chrono::duration<float, std::ratio<1l, 1000l> >::duration<float, void>(float const&)
+  0.00      0.00     0.00        4     0.00     0.00  std::chrono::duration<float, std::ratio<1l, 1000l> >::operator+=(std::chrono::duration<float, std::ratio<1l, 1000l> > const&)
+  0.00      0.00     0.00        4     0.00     0.00  std::chrono::duration<long, std::ratio<1l, 1000000000l> >::duration<long, void>(long const&)
+  0.00      0.00     0.00        4     0.00     0.00  std::ios_base::setf(std::_Ios_Fmtflags, std::_Ios_Fmtflags)
+  0.00      0.00     0.00        4     0.00     0.00  std::operator&=(std::_Ios_Fmtflags&, std::_Ios_Fmtflags)
+  0.00      0.00     0.00        4     0.00     0.00  std::operator~(std::_Ios_Fmtflags)
+  0.00      0.00     0.00        4     0.00     0.00  std::operator|=(std::_Ios_Fmtflags&, std::_Ios_Fmtflags)
+  0.00      0.00     0.00        4     0.00     0.00  std::operator|(std::_Ios_Fmtflags, std::_Ios_Fmtflags)
+  0.00      0.00     0.00        3     0.00     0.00  bool std::chrono::operator< <float, std::ratio<1l, 1000l>, float, std::ratio<1l, 1000l> >(std::chrono::duration<float, std::ratio<1l, 1000l> > const&, std::chrono::duration<float, std::ratio<1l, 1000l> > const&)
+  0.00      0.00     0.00        3     0.00     0.00  std::__detail::_Mod<unsigned long, 2147483647ul, 1ul, 0ul, true, true>::__calc(unsigned long)
+  0.00      0.00     0.00        3     0.00     0.00  unsigned long std::__detail::__mod<unsigned long, 2147483647ul, 1ul, 0ul>(unsigned long)
+  0.00      0.00     0.00        2     0.00     0.00  timer::Timer<(timer::timer_type)0, std::chrono::duration<float, std::ratio<1l, 1000l> > >::stop()
+  0.00      0.00     0.00        2     0.00     0.00  timer::Timer<(timer::timer_type)0, std::chrono::duration<float, std::ratio<1l, 1000l> > >::start()
+  0.00      0.00     0.00        2     0.00     0.00  timer::detail::TimerBase<(timer::timer_type)0, std::chrono::duration<float, std::ratio<1l, 1000l> > >::register_time()
+  0.00      0.00     0.00        2     0.00     0.00  std::ostream& timer::operator<< <float, 1l, 1000l>(std::ostream&, std::chrono::duration<float, std::ratio<1l, 1000l> > const&)
+  0.00      0.00     0.00        2     0.00     0.00  timer::detail::TimerBase<(timer::timer_type)0, std::chrono::duration<float, std::ratio<1l, 1000l> > >::print(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) const
+  0.00      0.00     0.00        2     0.00     0.00  timer::detail::TimerBase<(timer::timer_type)0, std::chrono::duration<float, std::ratio<1l, 1000l> > >::duration() const
+  0.00      0.00     0.00        2     0.00     0.00  std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::time_point()
+  0.00      0.00     0.00        2     0.00     0.00  std::enable_if<std::chrono::__is_duration<std::chrono::duration<float, std::ratio<1l, 1000l> > >::value, std::chrono::duration<float, std::ratio<1l, 1000l> > >::type std::chrono::duration_cast<std::chrono::duration<float, std::ratio<1l, 1000l> >, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&)
+  0.00      0.00     0.00        2     0.00     0.00  std::chrono::duration_values<long>::zero()
+  0.00      0.00     0.00        2     0.00     0.00  std::chrono::duration<float, std::ratio<1l, 1000l> > std::chrono::__duration_cast_impl<std::chrono::duration<float, std::ratio<1l, 1000l> >, std::ratio<1l, 1000000l>, float, true, false>::__cast<long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&)
+  0.00      0.00     0.00        2     0.00     0.00  std::chrono::duration<float, std::ratio<1l, 1000l> >::duration<long, std::ratio<1l, 1000000000l>, void>(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&)
+  0.00      0.00     0.00        2     0.00     0.00  std::chrono::duration<long, std::ratio<1l, 1000000000l> >::zero()
+  0.00      0.00     0.00        2     0.00     0.00  bool std::chrono::operator><float, std::ratio<1l, 1000l>, float, std::ratio<1l, 1000l> >(std::chrono::duration<float, std::ratio<1l, 1000l> > const&, std::chrono::duration<float, std::ratio<1l, 1000l> > const&)
+  0.00      0.00     0.00        2     0.00     0.00  std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >(std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&, std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&)
+  0.00      0.00     0.00        2     0.00     0.00  std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<long, std::ratio<1l, 1000000000l>, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&, std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&)
+  0.00      0.00     0.00        2     0.00     0.00  std::chrono::duration<std::enable_if<std::is_convertible<float const&, std::common_type<float, float>::type>::value, std::common_type<float, float>::type>::type, std::ratio<1l, 1000l> > std::chrono::operator*<float, std::ratio<1l, 1000l>, float>(std::chrono::duration<float, std::ratio<1l, 1000l> > const&, float const&)
+  0.00      0.00     0.00        2     0.00     0.00  std::setprecision(int)
+  0.00      0.00     0.00        2     0.00     0.00  std::setw(int)
+  0.00      0.00     0.00        1     0.00     0.00  _GLOBAL__sub_I__Z9partitionPiii
+  0.00      0.00     0.00        1     0.00     0.00  quick_sort(int*, int, int)
+  0.00      0.00     0.00        1     0.00     0.00  quick_sort_p(int*, int, int)
+  0.00      0.00     0.00        1     0.00     0.00  __static_initialization_and_destruction_0(int, int)
+  0.00      0.00     0.00        1     0.00     0.00  timer::Timer<(timer::timer_type)0, std::chrono::duration<float, std::ratio<1l, 1000l> > >::Timer(int, int, xlib::Color)
+  0.00      0.00     0.00        1     0.00     0.00  timer::Timer<(timer::timer_type)0, std::chrono::duration<float, std::ratio<1l, 1000l> > >::~Timer()
+  0.00      0.00     0.00        1     0.00     0.00  timer::detail::TimerBase<(timer::timer_type)0, std::chrono::duration<float, std::ratio<1l, 1000l> > >::TimerBase(int, int, xlib::Color)
+  0.00      0.00     0.00        1     0.00     0.00  timer::detail::TimerBase<(timer::timer_type)0, std::chrono::duration<float, std::ratio<1l, 1000l> > >::~TimerBase()
+  0.00      0.00     0.00        1     0.00     0.00  std::uniform_int_distribution<int>::param_type::param_type(int, int)
+  0.00      0.00     0.00        1     0.00     0.00  std::uniform_int_distribution<int>::uniform_int_distribution(int, int)
+  0.00      0.00     0.00        1     0.00     0.00  std::linear_congruential_engine<unsigned long, 16807ul, 0ul, 2147483647ul>::seed(unsigned long)
+  0.00      0.00     0.00        1     0.00     0.00  std::linear_congruential_engine<unsigned long, 16807ul, 0ul, 2147483647ul>::linear_congruential_engine<unsigned int, void>(unsigned int&)
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2018 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 2 byte(s) no time propagated
+
+index % time    self  children    called     name
+                0.00    0.00    1902/1902        std::enable_if<std::__and_<std::__not_<std::__is_tuple_like<int> >, std::is_move_constructible<int>, std::is_move_assignable<int> >::value, void>::type std::swap<int>(int&, int&) [9]
+[8]      0.0    0.00    0.00    1902         std::remove_reference<int&>::type&& std::move<int&>(int&) [8]
+-----------------------------------------------
+                0.00    0.00     634/634         partition(int*, int, int) [11]
+[9]      0.0    0.00    0.00     634         std::enable_if<std::__and_<std::__not_<std::__is_tuple_like<int> >, std::is_move_constructible<int>, std::is_move_assignable<int> >::value, void>::type std::swap<int>(int&, int&) [9]
+                0.00    0.00    1902/1902        std::remove_reference<int&>::type&& std::move<int&>(int&) [8]
+-----------------------------------------------
+                0.00    0.00     200/200         int std::uniform_int_distribution<int>::operator()<std::linear_congruential_engine<unsigned long, 16807ul, 0ul, 2147483647ul> >(std::linear_congruential_engine<unsigned long, 16807ul, 0ul, 2147483647ul>&, std::uniform_int_distribution<int>::param_type const&) [14]
+[10]     0.0    0.00    0.00     200         std::uniform_int_distribution<int>::param_type::a() const [10]
+-----------------------------------------------
+                0.00    0.00      68/136         quick_sort(int*, int, int) [54]
+                0.00    0.00      68/136         quick_sort_p(int*, int, int) [55]
+[11]     0.0    0.00    0.00     136         partition(int*, int, int) [11]
+                0.00    0.00     634/634         std::enable_if<std::__and_<std::__not_<std::__is_tuple_like<int> >, std::is_move_constructible<int>, std::is_move_assignable<int> >::value, void>::type std::swap<int>(int&, int&) [9]
+-----------------------------------------------
+                0.00    0.00     100/100         int std::uniform_int_distribution<int>::operator()<std::linear_congruential_engine<unsigned long, 16807ul, 0ul, 2147483647ul> >(std::linear_congruential_engine<unsigned long, 16807ul, 0ul, 2147483647ul>&, std::uniform_int_distribution<int>::param_type const&) [14]
+[12]     0.0    0.00    0.00     100         std::uniform_int_distribution<int>::param_type::b() const [12]
+-----------------------------------------------
+                0.00    0.00     100/100         main [6]
+[13]     0.0    0.00    0.00     100         int std::uniform_int_distribution<int>::operator()<std::linear_congruential_engine<unsigned long, 16807ul, 0ul, 2147483647ul> >(std::linear_congruential_engine<unsigned long, 16807ul, 0ul, 2147483647ul>&) [13]
+                0.00    0.00     100/100         int std::uniform_int_distribution<int>::operator()<std::linear_congruential_engine<unsigned long, 16807ul, 0ul, 2147483647ul> >(std::linear_congruential_engine<unsigned long, 16807ul, 0ul, 2147483647ul>&, std::uniform_int_distribution<int>::param_type const&) [14]
+-----------------------------------------------
+                0.00    0.00     100/100         int std::uniform_int_distribution<int>::operator()<std::linear_congruential_engine<unsigned long, 16807ul, 0ul, 2147483647ul> >(std::linear_congruential_engine<unsigned long, 16807ul, 0ul, 2147483647ul>&) [13]
+[14]     0.0    0.00    0.00     100         int std::uniform_int_distribution<int>::operator()<std::linear_congruential_engine<unsigned long, 16807ul, 0ul, 2147483647ul> >(std::linear_congruential_engine<unsigned long, 16807ul, 0ul, 2147483647ul>&, std::uniform_int_distribution<int>::param_type const&) [14]
+                0.00    0.00     200/200         std::uniform_int_distribution<int>::param_type::a() const [10]
+                0.00    0.00     100/100         std::uniform_int_distribution<int>::param_type::b() const [12]
+                0.00    0.00     100/100         std::linear_congruential_engine<unsigned long, 16807ul, 0ul, 2147483647ul>::operator()() [15]
+-----------------------------------------------
+                0.00    0.00     100/100         int std::uniform_int_distribution<int>::operator()<std::linear_congruential_engine<unsigned long, 16807ul, 0ul, 2147483647ul> >(std::linear_congruential_engine<unsigned long, 16807ul, 0ul, 2147483647ul>&, std::uniform_int_distribution<int>::param_type const&) [14]
+[15]     0.0    0.00    0.00     100         std::linear_congruential_engine<unsigned long, 16807ul, 0ul, 2147483647ul>::operator()() [15]
+                0.00    0.00     100/100         unsigned long std::__detail::__mod<unsigned long, 2147483647ul, 16807ul, 0ul>(unsigned long) [17]
+-----------------------------------------------
+                0.00    0.00     100/100         unsigned long std::__detail::__mod<unsigned long, 2147483647ul, 16807ul, 0ul>(unsigned long) [17]
+[16]     0.0    0.00    0.00     100         std::__detail::_Mod<unsigned long, 2147483647ul, 16807ul, 0ul, true, true>::__calc(unsigned long) [16]
+-----------------------------------------------
+                0.00    0.00     100/100         std::linear_congruential_engine<unsigned long, 16807ul, 0ul, 2147483647ul>::operator()() [15]
+[17]     0.0    0.00    0.00     100         unsigned long std::__detail::__mod<unsigned long, 2147483647ul, 16807ul, 0ul>(unsigned long) [17]
+                0.00    0.00     100/100         std::__detail::_Mod<unsigned long, 2147483647ul, 16807ul, 0ul, true, true>::__calc(unsigned long) [16]
+-----------------------------------------------
+                0.00    0.00       2/18          std::chrono::duration<float, std::ratio<1l, 1000l> >::duration<long, std::ratio<1l, 1000000000l>, void>(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [45]
+                0.00    0.00       2/18          timer::detail::TimerBase<(timer::timer_type)0, std::chrono::duration<float, std::ratio<1l, 1000l> > >::register_time() [37]
+                0.00    0.00       2/18          timer::detail::TimerBase<(timer::timer_type)0, std::chrono::duration<float, std::ratio<1l, 1000l> > >::duration() const [40]
+                0.00    0.00       2/18          std::chrono::duration<std::enable_if<std::is_convertible<float const&, std::common_type<float, float>::type>::value, std::common_type<float, float>::type>::type, std::ratio<1l, 1000l> > std::chrono::operator*<float, std::ratio<1l, 1000l>, float>(std::chrono::duration<float, std::ratio<1l, 1000l> > const&, float const&) [50]
+                0.00    0.00       4/18          std::chrono::duration<float, std::ratio<1l, 1000l> >::operator+=(std::chrono::duration<float, std::ratio<1l, 1000l> > const&) [25]
+                0.00    0.00       6/18          bool std::chrono::operator< <float, std::ratio<1l, 1000l>, float, std::ratio<1l, 1000l> >(std::chrono::duration<float, std::ratio<1l, 1000l> > const&, std::chrono::duration<float, std::ratio<1l, 1000l> > const&) [32]
+[18]     0.0    0.00    0.00      18         std::chrono::duration<float, std::ratio<1l, 1000l> >::count() const [18]
+-----------------------------------------------
+                0.00    0.00       4/8           std::operator&=(std::_Ios_Fmtflags&, std::_Ios_Fmtflags) [28]
+                0.00    0.00       4/8           std::ios_base::setf(std::_Ios_Fmtflags, std::_Ios_Fmtflags) [27]
+[19]     0.0    0.00    0.00       8         std::operator&(std::_Ios_Fmtflags, std::_Ios_Fmtflags) [19]
+-----------------------------------------------
+                0.00    0.00       1/7           main [6]
+                0.00    0.00       2/7           std::chrono::duration<float, std::ratio<1l, 1000l> > std::chrono::__duration_cast_impl<std::chrono::duration<float, std::ratio<1l, 1000l> >, std::ratio<1l, 1000000l>, float, true, false>::__cast<long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [44]
+                0.00    0.00       4/7           std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<long, std::ratio<1l, 1000000000l>, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&, std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [49]
+[20]     0.0    0.00    0.00       7         std::chrono::duration<long, std::ratio<1l, 1000000000l> >::count() const [20]
+-----------------------------------------------
+                0.00    0.00       1/5           main [6]
+                0.00    0.00       4/5           std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >(std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&, std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&) [48]
+[21]     0.0    0.00    0.00       5         std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::time_since_epoch() const [21]
+-----------------------------------------------
+                0.00    0.00       4/4           main [6]
+[22]     0.0    0.00    0.00       4         void print_array<int>(int*, int, char const*) [22]
+-----------------------------------------------
+                0.00    0.00       4/4           timer::detail::TimerBase<(timer::timer_type)0, std::chrono::duration<float, std::ratio<1l, 1000l> > >::print(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) const [39]
+[23]     0.0    0.00    0.00       4         timer::operator<<(std::ostream&, xlib::Color const&) [23]
+-----------------------------------------------
+                0.00    0.00       2/4           std::chrono::duration<float, std::ratio<1l, 1000l> > std::chrono::__duration_cast_impl<std::chrono::duration<float, std::ratio<1l, 1000l> >, std::ratio<1l, 1000000l>, float, true, false>::__cast<long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [44]
+                0.00    0.00       2/4           std::chrono::duration<std::enable_if<std::is_convertible<float const&, std::common_type<float, float>::type>::value, std::common_type<float, float>::type>::type, std::ratio<1l, 1000l> > std::chrono::operator*<float, std::ratio<1l, 1000l>, float>(std::chrono::duration<float, std::ratio<1l, 1000l> > const&, float const&) [50]
+[24]     0.0    0.00    0.00       4         std::chrono::duration<float, std::ratio<1l, 1000l> >::duration<float, void>(float const&) [24]
+-----------------------------------------------
+                0.00    0.00       4/4           timer::detail::TimerBase<(timer::timer_type)0, std::chrono::duration<float, std::ratio<1l, 1000l> > >::register_time() [37]
+[25]     0.0    0.00    0.00       4         std::chrono::duration<float, std::ratio<1l, 1000l> >::operator+=(std::chrono::duration<float, std::ratio<1l, 1000l> > const&) [25]
+                0.00    0.00       4/18          std::chrono::duration<float, std::ratio<1l, 1000l> >::count() const [18]
+-----------------------------------------------
+                0.00    0.00       2/4           std::chrono::duration<long, std::ratio<1l, 1000000000l> >::zero() [46]
+                0.00    0.00       2/4           std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<long, std::ratio<1l, 1000000000l>, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&, std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [49]
+[26]     0.0    0.00    0.00       4         std::chrono::duration<long, std::ratio<1l, 1000000000l> >::duration<long, void>(long const&) [26]
+-----------------------------------------------
+                0.00    0.00       2/4           std::right(std::ios_base&) [77]
+                0.00    0.00       2/4           std::fixed(std::ios_base&) [76]
+[27]     0.0    0.00    0.00       4         std::ios_base::setf(std::_Ios_Fmtflags, std::_Ios_Fmtflags) [27]
+                0.00    0.00       4/4           std::operator~(std::_Ios_Fmtflags) [29]
+                0.00    0.00       4/4           std::operator&=(std::_Ios_Fmtflags&, std::_Ios_Fmtflags) [28]
+                0.00    0.00       4/8           std::operator&(std::_Ios_Fmtflags, std::_Ios_Fmtflags) [19]
+                0.00    0.00       4/4           std::operator|=(std::_Ios_Fmtflags&, std::_Ios_Fmtflags) [30]
+-----------------------------------------------
+                0.00    0.00       4/4           std::ios_base::setf(std::_Ios_Fmtflags, std::_Ios_Fmtflags) [27]
+[28]     0.0    0.00    0.00       4         std::operator&=(std::_Ios_Fmtflags&, std::_Ios_Fmtflags) [28]
+                0.00    0.00       4/8           std::operator&(std::_Ios_Fmtflags, std::_Ios_Fmtflags) [19]
+-----------------------------------------------
+                0.00    0.00       4/4           std::ios_base::setf(std::_Ios_Fmtflags, std::_Ios_Fmtflags) [27]
+[29]     0.0    0.00    0.00       4         std::operator~(std::_Ios_Fmtflags) [29]
+-----------------------------------------------
+                0.00    0.00       4/4           std::ios_base::setf(std::_Ios_Fmtflags, std::_Ios_Fmtflags) [27]
+[30]     0.0    0.00    0.00       4         std::operator|=(std::_Ios_Fmtflags&, std::_Ios_Fmtflags) [30]
+                0.00    0.00       4/4           std::operator|(std::_Ios_Fmtflags, std::_Ios_Fmtflags) [31]
+-----------------------------------------------
+                0.00    0.00       4/4           std::operator|=(std::_Ios_Fmtflags&, std::_Ios_Fmtflags) [30]
+[31]     0.0    0.00    0.00       4         std::operator|(std::_Ios_Fmtflags, std::_Ios_Fmtflags) [31]
+-----------------------------------------------
+                0.00    0.00       1/3           timer::detail::TimerBase<(timer::timer_type)0, std::chrono::duration<float, std::ratio<1l, 1000l> > >::register_time() [37]
+                0.00    0.00       2/3           bool std::chrono::operator><float, std::ratio<1l, 1000l>, float, std::ratio<1l, 1000l> >(std::chrono::duration<float, std::ratio<1l, 1000l> > const&, std::chrono::duration<float, std::ratio<1l, 1000l> > const&) [47]
+[32]     0.0    0.00    0.00       3         bool std::chrono::operator< <float, std::ratio<1l, 1000l>, float, std::ratio<1l, 1000l> >(std::chrono::duration<float, std::ratio<1l, 1000l> > const&, std::chrono::duration<float, std::ratio<1l, 1000l> > const&) [32]
+                0.00    0.00       6/18          std::chrono::duration<float, std::ratio<1l, 1000l> >::count() const [18]
+-----------------------------------------------
+                0.00    0.00       3/3           unsigned long std::__detail::__mod<unsigned long, 2147483647ul, 1ul, 0ul>(unsigned long) [34]
+[33]     0.0    0.00    0.00       3         std::__detail::_Mod<unsigned long, 2147483647ul, 1ul, 0ul, true, true>::__calc(unsigned long) [33]
+-----------------------------------------------
+                0.00    0.00       3/3           std::linear_congruential_engine<unsigned long, 16807ul, 0ul, 2147483647ul>::seed(unsigned long) [63]
+[34]     0.0    0.00    0.00       3         unsigned long std::__detail::__mod<unsigned long, 2147483647ul, 1ul, 0ul>(unsigned long) [34]
+                0.00    0.00       3/3           std::__detail::_Mod<unsigned long, 2147483647ul, 1ul, 0ul, true, true>::__calc(unsigned long) [33]
+-----------------------------------------------
+                0.00    0.00       2/2           main [6]
+[35]     0.0    0.00    0.00       2         timer::Timer<(timer::timer_type)0, std::chrono::duration<float, std::ratio<1l, 1000l> > >::stop() [35]
+                0.00    0.00       2/2           std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >(std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&, std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&) [48]
+                0.00    0.00       2/2           std::chrono::duration<float, std::ratio<1l, 1000l> >::duration<long, std::ratio<1l, 1000000000l>, void>(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [45]
+                0.00    0.00       2/2           timer::detail::TimerBase<(timer::timer_type)0, std::chrono::duration<float, std::ratio<1l, 1000l> > >::register_time() [37]
+-----------------------------------------------
+                0.00    0.00       2/2           main [6]
+[36]     0.0    0.00    0.00       2         timer::Timer<(timer::timer_type)0, std::chrono::duration<float, std::ratio<1l, 1000l> > >::start() [36]
+-----------------------------------------------
+                0.00    0.00       2/2           timer::Timer<(timer::timer_type)0, std::chrono::duration<float, std::ratio<1l, 1000l> > >::stop() [35]
+[37]     0.0    0.00    0.00       2         timer::detail::TimerBase<(timer::timer_type)0, std::chrono::duration<float, std::ratio<1l, 1000l> > >::register_time() [37]
+                0.00    0.00       4/4           std::chrono::duration<float, std::ratio<1l, 1000l> >::operator+=(std::chrono::duration<float, std::ratio<1l, 1000l> > const&) [25]
+                0.00    0.00       2/18          std::chrono::duration<float, std::ratio<1l, 1000l> >::count() const [18]
+                0.00    0.00       2/2           std::chrono::duration<std::enable_if<std::is_convertible<float const&, std::common_type<float, float>::type>::value, std::common_type<float, float>::type>::type, std::ratio<1l, 1000l> > std::chrono::operator*<float, std::ratio<1l, 1000l>, float>(std::chrono::duration<float, std::ratio<1l, 1000l> > const&, float const&) [50]
+                0.00    0.00       2/2           bool std::chrono::operator><float, std::ratio<1l, 1000l>, float, std::ratio<1l, 1000l> >(std::chrono::duration<float, std::ratio<1l, 1000l> > const&, std::chrono::duration<float, std::ratio<1l, 1000l> > const&) [47]
+                0.00    0.00       1/3           bool std::chrono::operator< <float, std::ratio<1l, 1000l>, float, std::ratio<1l, 1000l> >(std::chrono::duration<float, std::ratio<1l, 1000l> > const&, std::chrono::duration<float, std::ratio<1l, 1000l> > const&) [32]
+-----------------------------------------------
+                0.00    0.00       2/2           timer::detail::TimerBase<(timer::timer_type)0, std::chrono::duration<float, std::ratio<1l, 1000l> > >::print(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) const [39]
+[38]     0.0    0.00    0.00       2         std::ostream& timer::operator<< <float, 1l, 1000l>(std::ostream&, std::chrono::duration<float, std::ratio<1l, 1000l> > const&) [38]
+-----------------------------------------------
+                0.00    0.00       2/2           main [6]
+[39]     0.0    0.00    0.00       2         timer::detail::TimerBase<(timer::timer_type)0, std::chrono::duration<float, std::ratio<1l, 1000l> > >::print(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) const [39]
+                0.00    0.00       4/4           timer::operator<<(std::ostream&, xlib::Color const&) [23]
+                0.00    0.00       2/2           std::setprecision(int) [51]
+                0.00    0.00       2/2           std::setw(int) [52]
+                0.00    0.00       2/2           timer::detail::TimerBase<(timer::timer_type)0, std::chrono::duration<float, std::ratio<1l, 1000l> > >::duration() const [40]
+                0.00    0.00       2/2           std::ostream& timer::operator<< <float, 1l, 1000l>(std::ostream&, std::chrono::duration<float, std::ratio<1l, 1000l> > const&) [38]
+-----------------------------------------------
+                0.00    0.00       2/2           timer::detail::TimerBase<(timer::timer_type)0, std::chrono::duration<float, std::ratio<1l, 1000l> > >::print(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) const [39]
+[40]     0.0    0.00    0.00       2         timer::detail::TimerBase<(timer::timer_type)0, std::chrono::duration<float, std::ratio<1l, 1000l> > >::duration() const [40]
+                0.00    0.00       2/18          std::chrono::duration<float, std::ratio<1l, 1000l> >::count() const [18]
+-----------------------------------------------
+                0.00    0.00       2/2           timer::Timer<(timer::timer_type)0, std::chrono::duration<float, std::ratio<1l, 1000l> > >::Timer(int, int, xlib::Color) [57]
+[41]     0.0    0.00    0.00       2         std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::time_point() [41]
+                0.00    0.00       2/2           std::chrono::duration<long, std::ratio<1l, 1000000000l> >::zero() [46]
+-----------------------------------------------
+                0.00    0.00       2/2           std::chrono::duration<float, std::ratio<1l, 1000l> >::duration<long, std::ratio<1l, 1000000000l>, void>(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [45]
+[42]     0.0    0.00    0.00       2         std::enable_if<std::chrono::__is_duration<std::chrono::duration<float, std::ratio<1l, 1000l> > >::value, std::chrono::duration<float, std::ratio<1l, 1000l> > >::type std::chrono::duration_cast<std::chrono::duration<float, std::ratio<1l, 1000l> >, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [42]
+                0.00    0.00       2/2           std::chrono::duration<float, std::ratio<1l, 1000l> > std::chrono::__duration_cast_impl<std::chrono::duration<float, std::ratio<1l, 1000l> >, std::ratio<1l, 1000000l>, float, true, false>::__cast<long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [44]
+-----------------------------------------------
+                0.00    0.00       2/2           std::chrono::duration<long, std::ratio<1l, 1000000000l> >::zero() [46]
+[43]     0.0    0.00    0.00       2         std::chrono::duration_values<long>::zero() [43]
+-----------------------------------------------
+                0.00    0.00       2/2           std::enable_if<std::chrono::__is_duration<std::chrono::duration<float, std::ratio<1l, 1000l> > >::value, std::chrono::duration<float, std::ratio<1l, 1000l> > >::type std::chrono::duration_cast<std::chrono::duration<float, std::ratio<1l, 1000l> >, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [42]
+[44]     0.0    0.00    0.00       2         std::chrono::duration<float, std::ratio<1l, 1000l> > std::chrono::__duration_cast_impl<std::chrono::duration<float, std::ratio<1l, 1000l> >, std::ratio<1l, 1000000l>, float, true, false>::__cast<long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [44]
+                0.00    0.00       2/7           std::chrono::duration<long, std::ratio<1l, 1000000000l> >::count() const [20]
+                0.00    0.00       2/4           std::chrono::duration<float, std::ratio<1l, 1000l> >::duration<float, void>(float const&) [24]
+-----------------------------------------------
+                0.00    0.00       2/2           timer::Timer<(timer::timer_type)0, std::chrono::duration<float, std::ratio<1l, 1000l> > >::stop() [35]
+[45]     0.0    0.00    0.00       2         std::chrono::duration<float, std::ratio<1l, 1000l> >::duration<long, std::ratio<1l, 1000000000l>, void>(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [45]
+                0.00    0.00       2/2           std::enable_if<std::chrono::__is_duration<std::chrono::duration<float, std::ratio<1l, 1000l> > >::value, std::chrono::duration<float, std::ratio<1l, 1000l> > >::type std::chrono::duration_cast<std::chrono::duration<float, std::ratio<1l, 1000l> >, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [42]
+                0.00    0.00       2/18          std::chrono::duration<float, std::ratio<1l, 1000l> >::count() const [18]
+-----------------------------------------------
+                0.00    0.00       2/2           std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::time_point() [41]
+[46]     0.0    0.00    0.00       2         std::chrono::duration<long, std::ratio<1l, 1000000000l> >::zero() [46]
+                0.00    0.00       2/2           std::chrono::duration_values<long>::zero() [43]
+                0.00    0.00       2/4           std::chrono::duration<long, std::ratio<1l, 1000000000l> >::duration<long, void>(long const&) [26]
+-----------------------------------------------
+                0.00    0.00       2/2           timer::detail::TimerBase<(timer::timer_type)0, std::chrono::duration<float, std::ratio<1l, 1000l> > >::register_time() [37]
+[47]     0.0    0.00    0.00       2         bool std::chrono::operator><float, std::ratio<1l, 1000l>, float, std::ratio<1l, 1000l> >(std::chrono::duration<float, std::ratio<1l, 1000l> > const&, std::chrono::duration<float, std::ratio<1l, 1000l> > const&) [47]
+                0.00    0.00       2/3           bool std::chrono::operator< <float, std::ratio<1l, 1000l>, float, std::ratio<1l, 1000l> >(std::chrono::duration<float, std::ratio<1l, 1000l> > const&, std::chrono::duration<float, std::ratio<1l, 1000l> > const&) [32]
+-----------------------------------------------
+                0.00    0.00       2/2           timer::Timer<(timer::timer_type)0, std::chrono::duration<float, std::ratio<1l, 1000l> > >::stop() [35]
+[48]     0.0    0.00    0.00       2         std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >(std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&, std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&) [48]
+                0.00    0.00       4/5           std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::time_since_epoch() const [21]
+                0.00    0.00       2/2           std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<long, std::ratio<1l, 1000000000l>, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&, std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [49]
+-----------------------------------------------
+                0.00    0.00       2/2           std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >(std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&, std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&) [48]
+[49]     0.0    0.00    0.00       2         std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<long, std::ratio<1l, 1000000000l>, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&, std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [49]
+                0.00    0.00       4/7           std::chrono::duration<long, std::ratio<1l, 1000000000l> >::count() const [20]
+                0.00    0.00       2/4           std::chrono::duration<long, std::ratio<1l, 1000000000l> >::duration<long, void>(long const&) [26]
+-----------------------------------------------
+                0.00    0.00       2/2           timer::detail::TimerBase<(timer::timer_type)0, std::chrono::duration<float, std::ratio<1l, 1000l> > >::register_time() [37]
+[50]     0.0    0.00    0.00       2         std::chrono::duration<std::enable_if<std::is_convertible<float const&, std::common_type<float, float>::type>::value, std::common_type<float, float>::type>::type, std::ratio<1l, 1000l> > std::chrono::operator*<float, std::ratio<1l, 1000l>, float>(std::chrono::duration<float, std::ratio<1l, 1000l> > const&, float const&) [50]
+                0.00    0.00       2/18          std::chrono::duration<float, std::ratio<1l, 1000l> >::count() const [18]
+                0.00    0.00       2/4           std::chrono::duration<float, std::ratio<1l, 1000l> >::duration<float, void>(float const&) [24]
+-----------------------------------------------
+                0.00    0.00       2/2           timer::detail::TimerBase<(timer::timer_type)0, std::chrono::duration<float, std::ratio<1l, 1000l> > >::print(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) const [39]
+[51]     0.0    0.00    0.00       2         std::setprecision(int) [51]
+-----------------------------------------------
+                0.00    0.00       2/2           timer::detail::TimerBase<(timer::timer_type)0, std::chrono::duration<float, std::ratio<1l, 1000l> > >::print(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) const [39]
+[52]     0.0    0.00    0.00       2         std::setw(int) [52]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [83]
+[53]     0.0    0.00    0.00       1         _GLOBAL__sub_I__Z9partitionPiii [53]
+                0.00    0.00       1/1           __static_initialization_and_destruction_0(int, int) [56]
+-----------------------------------------------
+                                 136             quick_sort(int*, int, int) [54]
+                0.00    0.00       1/1           main [6]
+[54]     0.0    0.00    0.00       1+136     quick_sort(int*, int, int) [54]
+                0.00    0.00      68/136         partition(int*, int, int) [11]
+                                 136             quick_sort(int*, int, int) [54]
+-----------------------------------------------
+                                 136             quick_sort_p(int*, int, int) [55]
+                0.00    0.00       1/1           main [6]
+[55]     0.0    0.00    0.00       1+136     quick_sort_p(int*, int, int) [55]
+                0.00    0.00      68/136         partition(int*, int, int) [11]
+                                 136             quick_sort_p(int*, int, int) [55]
+-----------------------------------------------
+                0.00    0.00       1/1           _GLOBAL__sub_I__Z9partitionPiii [53]
+[56]     0.0    0.00    0.00       1         __static_initialization_and_destruction_0(int, int) [56]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[57]     0.0    0.00    0.00       1         timer::Timer<(timer::timer_type)0, std::chrono::duration<float, std::ratio<1l, 1000l> > >::Timer(int, int, xlib::Color) [57]
+                0.00    0.00       2/2           std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::time_point() [41]
+                0.00    0.00       1/1           timer::detail::TimerBase<(timer::timer_type)0, std::chrono::duration<float, std::ratio<1l, 1000l> > >::TimerBase(int, int, xlib::Color) [59]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[58]     0.0    0.00    0.00       1         timer::Timer<(timer::timer_type)0, std::chrono::duration<float, std::ratio<1l, 1000l> > >::~Timer() [58]
+                0.00    0.00       1/1           timer::detail::TimerBase<(timer::timer_type)0, std::chrono::duration<float, std::ratio<1l, 1000l> > >::~TimerBase() [60]
+-----------------------------------------------
+                0.00    0.00       1/1           timer::Timer<(timer::timer_type)0, std::chrono::duration<float, std::ratio<1l, 1000l> > >::Timer(int, int, xlib::Color) [57]
+[59]     0.0    0.00    0.00       1         timer::detail::TimerBase<(timer::timer_type)0, std::chrono::duration<float, std::ratio<1l, 1000l> > >::TimerBase(int, int, xlib::Color) [59]
+-----------------------------------------------
+                0.00    0.00       1/1           timer::Timer<(timer::timer_type)0, std::chrono::duration<float, std::ratio<1l, 1000l> > >::~Timer() [58]
+[60]     0.0    0.00    0.00       1         timer::detail::TimerBase<(timer::timer_type)0, std::chrono::duration<float, std::ratio<1l, 1000l> > >::~TimerBase() [60]
+-----------------------------------------------
+                0.00    0.00       1/1           std::uniform_int_distribution<int>::uniform_int_distribution(int, int) [62]
+[61]     0.0    0.00    0.00       1         std::uniform_int_distribution<int>::param_type::param_type(int, int) [61]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[62]     0.0    0.00    0.00       1         std::uniform_int_distribution<int>::uniform_int_distribution(int, int) [62]
+                0.00    0.00       1/1           std::uniform_int_distribution<int>::param_type::param_type(int, int) [61]
+-----------------------------------------------
+                0.00    0.00       1/1           std::linear_congruential_engine<unsigned long, 16807ul, 0ul, 2147483647ul>::linear_congruential_engine<unsigned int, void>(unsigned int&) [64]
+[63]     0.0    0.00    0.00       1         std::linear_congruential_engine<unsigned long, 16807ul, 0ul, 2147483647ul>::seed(unsigned long) [63]
+                0.00    0.00       3/3           unsigned long std::__detail::__mod<unsigned long, 2147483647ul, 1ul, 0ul>(unsigned long) [34]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[64]     0.0    0.00    0.00       1         std::linear_congruential_engine<unsigned long, 16807ul, 0ul, 2147483647ul>::linear_congruential_engine<unsigned int, void>(unsigned int&) [64]
+                0.00    0.00       1/1           std::linear_congruential_engine<unsigned long, 16807ul, 0ul, 2147483647ul>::seed(unsigned long) [63]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012-2018 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+  [53] _GLOBAL__sub_I__Z9partitionPiii [21] std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::time_since_epoch() const [47] bool std::chrono::operator><float, std::ratio<1l, 1000l>, float, std::ratio<1l, 1000l> >(std::chrono::duration<float, std::ratio<1l, 1000l> > const&, std::chrono::duration<float, std::ratio<1l, 1000l> > const&)
+  [54] quick_sort(int*, int, int) [18] std::chrono::duration<float, std::ratio<1l, 1000l> >::count() const [32] bool std::chrono::operator< <float, std::ratio<1l, 1000l>, float, std::ratio<1l, 1000l> >(std::chrono::duration<float, std::ratio<1l, 1000l> > const&, std::chrono::duration<float, std::ratio<1l, 1000l> > const&)
+  [22] void print_array<int>(int*, int, char const*) [20] std::chrono::duration<long, std::ratio<1l, 1000000000l> >::count() const [48] std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >(std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&, std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&)
+  [55] quick_sort_p(int*, int, int) [61] std::uniform_int_distribution<int>::param_type::param_type(int, int) [49] std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<long, std::ratio<1l, 1000000000l>, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&, std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&)
+  [56] __static_initialization_and_destruction_0(int, int) [62] std::uniform_int_distribution<int>::uniform_int_distribution(int, int) [50] std::chrono::duration<std::enable_if<std::is_convertible<float const&, std::common_type<float, float>::type>::value, std::common_type<float, float>::type>::type, std::ratio<1l, 1000l> > std::chrono::operator*<float, std::ratio<1l, 1000l>, float>(std::chrono::duration<float, std::ratio<1l, 1000l> > const&, float const&)
+  [11] partition(int*, int, int) [13] int std::uniform_int_distribution<int>::operator()<std::linear_congruential_engine<unsigned long, 16807ul, 0ul, 2147483647ul> >(std::linear_congruential_engine<unsigned long, 16807ul, 0ul, 2147483647ul>&) [16] std::__detail::_Mod<unsigned long, 2147483647ul, 16807ul, 0ul, true, true>::__calc(unsigned long)
+  [35] timer::Timer<(timer::timer_type)0, std::chrono::duration<float, std::ratio<1l, 1000l> > >::stop() [14] int std::uniform_int_distribution<int>::operator()<std::linear_congruential_engine<unsigned long, 16807ul, 0ul, 2147483647ul> >(std::linear_congruential_engine<unsigned long, 16807ul, 0ul, 2147483647ul>&, std::uniform_int_distribution<int>::param_type const&) [33] std::__detail::_Mod<unsigned long, 2147483647ul, 1ul, 0ul, true, true>::__calc(unsigned long)
+  [36] timer::Timer<(timer::timer_type)0, std::chrono::duration<float, std::ratio<1l, 1000l> > >::start() [63] std::linear_congruential_engine<unsigned long, 16807ul, 0ul, 2147483647ul>::seed(unsigned long) [17] unsigned long std::__detail::__mod<unsigned long, 2147483647ul, 16807ul, 0ul>(unsigned long)
+  [57] timer::Timer<(timer::timer_type)0, std::chrono::duration<float, std::ratio<1l, 1000l> > >::Timer(int, int, xlib::Color) [64] std::linear_congruential_engine<unsigned long, 16807ul, 0ul, 2147483647ul>::linear_congruential_engine<unsigned int, void>(unsigned int&) [34] unsigned long std::__detail::__mod<unsigned long, 2147483647ul, 1ul, 0ul>(unsigned long)
+  [58] timer::Timer<(timer::timer_type)0, std::chrono::duration<float, std::ratio<1l, 1000l> > >::~Timer() [15] std::linear_congruential_engine<unsigned long, 16807ul, 0ul, 2147483647ul>::operator()() [27] std::ios_base::setf(std::_Ios_Fmtflags, std::_Ios_Fmtflags)
+  [37] timer::detail::TimerBase<(timer::timer_type)0, std::chrono::duration<float, std::ratio<1l, 1000l> > >::register_time() [41] std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::time_point() [51] std::setprecision(int)
+  [59] timer::detail::TimerBase<(timer::timer_type)0, std::chrono::duration<float, std::ratio<1l, 1000l> > >::TimerBase(int, int, xlib::Color) [42] std::enable_if<std::chrono::__is_duration<std::chrono::duration<float, std::ratio<1l, 1000l> > >::value, std::chrono::duration<float, std::ratio<1l, 1000l> > >::type std::chrono::duration_cast<std::chrono::duration<float, std::ratio<1l, 1000l> >, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [8] std::remove_reference<int&>::type&& std::move<int&>(int&)
+  [60] timer::detail::TimerBase<(timer::timer_type)0, std::chrono::duration<float, std::ratio<1l, 1000l> > >::~TimerBase() [43] std::chrono::duration_values<long>::zero() [52] std::setw(int)
+  [23] timer::operator<<(std::ostream&, xlib::Color const&) [44] std::chrono::duration<float, std::ratio<1l, 1000l> > std::chrono::__duration_cast_impl<std::chrono::duration<float, std::ratio<1l, 1000l> >, std::ratio<1l, 1000000l>, float, true, false>::__cast<long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [9] std::enable_if<std::__and_<std::__not_<std::__is_tuple_like<int> >, std::is_move_constructible<int>, std::is_move_assignable<int> >::value, void>::type std::swap<int>(int&, int&)
+  [38] std::ostream& timer::operator<< <float, 1l, 1000l>(std::ostream&, std::chrono::duration<float, std::ratio<1l, 1000l> > const&) [24] std::chrono::duration<float, std::ratio<1l, 1000l> >::duration<float, void>(float const&) [28] std::operator&=(std::_Ios_Fmtflags&, std::_Ios_Fmtflags)
+  [39] timer::detail::TimerBase<(timer::timer_type)0, std::chrono::duration<float, std::ratio<1l, 1000l> > >::print(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) const [45] std::chrono::duration<float, std::ratio<1l, 1000l> >::duration<long, std::ratio<1l, 1000000000l>, void>(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [19] std::operator&(std::_Ios_Fmtflags, std::_Ios_Fmtflags)
+  [40] timer::detail::TimerBase<(timer::timer_type)0, std::chrono::duration<float, std::ratio<1l, 1000l> > >::duration() const [25] std::chrono::duration<float, std::ratio<1l, 1000l> >::operator+=(std::chrono::duration<float, std::ratio<1l, 1000l> > const&) [29] std::operator~(std::_Ios_Fmtflags)
+  [10] std::uniform_int_distribution<int>::param_type::a() const [46] std::chrono::duration<long, std::ratio<1l, 1000000000l> >::zero() [30] std::operator|=(std::_Ios_Fmtflags&, std::_Ios_Fmtflags)
+  [12] std::uniform_int_distribution<int>::param_type::b() const [26] std::chrono::duration<long, std::ratio<1l, 1000000000l> >::duration<long, void>(long const&) [31] std::operator|(std::_Ios_Fmtflags, std::_Ios_Fmtflags)

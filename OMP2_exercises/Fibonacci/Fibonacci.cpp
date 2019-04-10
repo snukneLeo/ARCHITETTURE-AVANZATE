@@ -40,7 +40,7 @@ int main() {
     using namespace timer;
     //  ------------------------- TEST FIBONACCI ----------------------
     omp_set_dynamic(0);
-    int value = 6;
+    int value = 40;
     Timer<HOST> TM;
     TM.start();
     long long int result = fibonacci(value, 1);

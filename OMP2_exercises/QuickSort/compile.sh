@@ -1,5 +1,9 @@
 #!/bin/bash
 DIR=`dirname $0`
 
-g++-8 -std=c++11 -fopenmp -I"$DIR"/include "$DIR"/QuickSort.cpp -o quicksort
-./quicksort
+g++ -std=c++11 -O0 -fopenmp -I"$DIR"/include "$DIR"/QuickSort.cpp -o quicksort
+COUNTER=0
+while [  $COUNTER -lt 1 ]; do
+    ./quicksort
+    let COUNTER=COUNTER+1 
+done

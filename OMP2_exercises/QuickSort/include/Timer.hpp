@@ -165,7 +165,6 @@ public:
      *
      */
     virtual void reset() noexcept final;
-
     /**
      * @brief Print the time elapsed between start() and stop() calls
      * @param[in] str print string \p str before the time elapsed
